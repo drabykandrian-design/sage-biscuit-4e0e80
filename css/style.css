@@ -229,6 +229,7 @@ p:last-child{margin-bottom:0;}
   padding:28px;width:100%;max-width:360px;
 }
 .hero-card-mock h2{color:var(--white);margin-bottom:16px;font-size:1rem;display:flex;align-items:center;gap:8px;}
+.hero-card-mock h2 svg{width:56px;height:56px;flex-shrink:0;}
 .hero-step{
   display:flex;align-items:center;gap:12px;
   padding:10px 0;border-bottom:1px solid rgba(255,255,255,.07);
@@ -399,6 +400,22 @@ p:last-child{margin-bottom:0;}
   background:var(--gray-bg);padding:6px 14px;border-radius:100px;
   margin-bottom:24px;
 }
+
+/* Table of contents */
+.toc-box{
+  background:var(--gray-bg);border-radius:var(--radius);
+  padding:20px 24px;margin:0 0 28px;
+}
+.toc-box .toc-title{
+  font-family:'Syne',sans-serif;font-weight:700;color:var(--blue);
+  font-size:.9rem;text-transform:uppercase;letter-spacing:.04em;
+  margin-bottom:12px;
+}
+.toc-box ul{display:flex;flex-direction:column;gap:8px;list-style:none;}
+.toc-box ul li{list-style:none;padding-left:0;}
+.toc-box ul li::before{content:none;}
+.toc-box a{color:var(--blue-mid);font-size:.92rem;}
+.toc-box a:hover{color:var(--blue);text-decoration:underline;}
 
 /* Step boxes */
 .step-box{
